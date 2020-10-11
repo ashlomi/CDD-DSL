@@ -1,0 +1,207 @@
+{
+	"objects": [
+		{
+			"application": "Local|Kofax - Shared Server",
+			"name": "master",
+			"kind": "ApplicationVersion"
+		},
+		{
+			"application": "Local|Kofax - MYSQL server",
+			"name": "master",
+			"kind": "ApplicationVersion"
+		},
+		{
+			"application": "Local|Ahaz",
+			"name": "master",
+			"kind": "ApplicationVersion"
+		},
+		{
+			"application": "Local|Genral App",
+			"name": "copy-2",
+			"kind": "ApplicationVersion"
+		},
+		{
+			"application": "Local|Kofax - Import Server",
+			"name": "master",
+			"kind": "ApplicationVersion"
+		},
+		{
+			"applicationVersions": [
+				"Local|Ahaz/master",
+				"Local|Kofax - MYSQL server/master",
+				"Local|Kofax - Shared Server/master",
+				"Local|Kofax - Import Server/master",
+				"Local|Genral App/copy-2"
+			],
+			"isReplaceApplicationVersionOnChangeNotification": false,
+			"markAsDonePhaseName": "",
+			"runOnCreation": false,
+			"version": "master1",
+			"name": "Clean-Rel-11-10",
+			"kind": "Release",
+			"ownerParties": [
+				"ashlomitest@gmail.com"
+			]
+		},
+		{
+			"release": "Clean-Rel-11-10/master1",
+			"isProduction": false,
+			"scope": "RELEASE_SCOPE",
+			"value": "This is a generic token",
+			"name": "GenericToken",
+			"kind": "ReleaseToken"
+		},
+		{
+			"release": "Clean-Rel-11-10/master1",
+			"isProduction": false,
+			"scope": "RELEASE_SCOPE",
+			"value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor laoreet dolor sit amet venenatis. Aliquam bibendum euismod tincidunt. Nunc aliquet, turpis sed porta porta, felis tellus lacinia dolor, at ultricies sapien dui pulvinar felis. Phasellus scelerisque, sapien vel bibendum ornare, mauris tortor sollicitudin quam, quis eleifend diam augue scelerisque erat. Pellentesque dignissim sem sit amet laoreet aliquet. Curabitur a gravida dolor, vitae gravida lectus. Praesent ac sem vitae justo tempus rhoncus. Aenean lorem nibh, consectetur quis dolor eu, accumsan aliquet metus. Vestibulum odio arcu, dapibus vitae magna vitae, dapibus ornare ligula. Curabitur ullamcorper velit a ex lobortis, in interdum nunc tincidunt. Vestibulum non metus eleifend, aliquam nisi eget, dignissim enim. Curabitur dignissim sagittis lacus quis tempus.\n\nCurabitur posuere odio lorem, at ornare diam suscipit a. Curabitur gravida libero ut ligula convallis, vitae auctor risus semper. Integer quis imperdiet orci. Nulla iaculis maximus tristique. Nullam ac semper nisi, quis tempus magna. Aliquam laoreet commodo est, in efficitur urna lacinia eget. Duis facilisis at justo eget interdum. Sed arcu mauris, maximus ac iaculis eget, tempus sit amet libero. Cras vel aliquam nulla. Etiam bibendum lobortis magna, eu vehicula mi varius eu. Phasellus commodo quis turpis a pharetra. Curabitur at iaculis urna, id pellentesque nisl. Maecenas dignissim mauris sed magna iaculis, id luctus mauris ultrices. Nam eget turpis eros. Vestibulum vitae convallis massa.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor laoreet dolor sit amet venenatis. Aliquam bibendum euismod tincidunt. Nunc aliquet, turpis sed porta porta, felis tellus lacinia dolor, at ultricies sapien dui pulvinar felis. Phasellus scelerisque, sapien vel bibendum ornare, mauris tortor sollicitudin quam, quis eleifend diam augue scelerisque erat. Pellentesque dignissim sem sit amet laoreet aliquet. Curabitur a gravida dolor, vitae gravida lectus. Praesent ac sem vitae justo tempus rhoncus. Aenean lorem nibh, consectetur quis dolor eu, accumsan aliquet metus. Vestibulum odio arcu, dapibus vitae magna vitae, dapibus ornare ligula. Curabitur ullamcorper velit a ex lobortis, in interdum nunc tincidunt. Vestibulum non metus eleifend, aliquam nisi eget, dignissim enim. Curabitur dignissim sagittis lacus quis tempus.\n\nCurabitur posuere odio lorem, at ornare diam suscipit a. Curabitur gravida libero ut ligula convallis, vitae auctor risus semper. Integer quis imperdiet orci. Nulla iaculis maximus tristique. Nullam ac semper nisi, quis tempus magna. Aliquam laoreet commodo est, in efficitur urna lacinia eget. Duis facilisis at justo eget interdum. Sed arcu mauris, maximus ac iaculis eget, tempus sit amet libero. Cras vel aliquam nulla. Etiam bibendum lobortis magna, eu vehicula mi varius eu. Phasellus commodo quis turpis a pharetra. Curabitur at iaculis urna, id pellentesque nisl. Maecenas dignissim mauris sed magna iaculis, id luctus mauris ultrices. Nam eget turpis eros. Vestibulum vitae convallis massa.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor laoreet dolor sit amet venenatis. Aliquam bibendum euismod tincidunt. Nunc aliquet, turpis sed porta porta, felis tellus lacinia dolor, at ultricies sapien dui pulvinar felis. Phasellus scelerisque, sapien vel bibendum ornare, mauris tortor sollicitudin quam, quis eleifend diam augue scelerisque erat. Pellentesque dignissim sem sit amet laoreet aliquet. Curabitur a gravida dolor, vitae gravida lectus. Praesent ac sem vitae justo tempus rhoncus. Aenean lorem nibh, consectetur quis dolor eu, accumsan aliquet metus. Vestibulum odio arcu, dapibus vitae magna vitae, dapibus ornare ligula. Curabitur ullamcorper velit a ex lobortis, in interdum nunc tincidunt. Vestibulum non metus eleifend, aliquam nisi eget, dignissim enim. Curabitur dignissim sagittis lacus quis tempus.\n\nCurabitur posuere odio lorem, at ornare diam suscipit a. Curabitur gravida libero ut ligula convallis, vitae auctor risus semper. Integer quis imperdiet orci. Nulla iaculis maximus tristique. Nullam ac semper nisi, quis tempus magna. Aliquam laoreet commodo est, in efficitur urna lacinia eget. Duis facilisis at justo eget interdum. Sed arcu mauris, maximus ac iaculis eget, tempus sit amet libero. Cras vel aliquam nulla. Etiam bibendum lobortis magna, eu vehicula mi varius eu. Phasellus commodo quis turpis a pharetra. Curabitur at iaculis urna, id pellentesque nisl. Maecenas dignissim mauris sed magna iaculis, id luctus mauris ultrices. Nam eget turpis eros. Vestibulum vitae convallis massa.",
+			"name": "LargeTokenContent",
+			"kind": "ReleaseToken"
+		},
+		{
+			"release": "Clean-Rel-11-10/master1",
+			"environments": [
+				"Test"
+			],
+			"approvalGate": "MANUAL",
+			"skipTasksWithUnchangedApplications": false,
+			"isApprovalRequired": false,
+			"name": "Test",
+			"kind": "Phase"
+		},
+		{
+			"release": "Clean-Rel-11-10/master1",
+			"approvalGate": "ON_FAILURE",
+			"skipTasksWithUnchangedApplications": false,
+			"isApprovalRequired": false,
+			"onFailureFailedPhase": "Test",
+			"name": "fail",
+			"kind": "Phase"
+		},
+		{
+			"release": "Clean-Rel-11-10/master1",
+			"environments": [
+				"Kofax-DEV"
+			],
+			"approvalGate": "MANUAL",
+			"skipTasksWithUnchangedApplications": false,
+			"isApprovalRequired": false,
+			"previousPhase": "Test",
+			"name": "Test 3",
+			"kind": "Phase"
+		},
+		{
+			"release": "Clean-Rel-11-10/master1",
+			"approvalGate": "MANUAL",
+			"skipTasksWithUnchangedApplications": false,
+			"isApprovalRequired": false,
+			"previousPhase": "Test 3",
+			"name": "Test 4",
+			"kind": "Phase"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test",
+			"isDisabled": false,
+			"applicationVersionBuilds": [
+				{
+					"applicationVersion": "Local|Genral App/copy-2"
+				}
+			],
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"name": "SonaQube",
+			"kind": "Task",
+			"endpoint": "Sonarqube",
+			"plugin": "SonarQube/1.1",
+			"parameters": {
+				"projectKey": "be.yildiz-games:feature-city-client",
+				"failOnWarning": "false"
+			},
+			"type": "Check Project Status"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test",
+			"isDisabled": false,
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"previousTasks": [
+				"SonaQube"
+			],
+			"description": "<p>&lt;html&gt;</p><p>    &lt;head&gt;</p><p>        &lt;style&gt;</p><p>            img {<!-- --></p><p>            width: 100%;</p><p>            }</p><p>        &lt;/style&gt;</p><p>    &lt;/head&gt;</p><p>    &lt;body&gt;</p><p><br /></p><p>        &lt;img src&#61;&#34;http://thesource.ca.sunlife/static/Intranet/Images/BrighterLife/generic_brighter-life.jpg&#34; alt&#61;&#34;HTML5 Icon&#34;&gt;</p><p><br /></p><p>    &lt;/body&gt;</p><p><br /></p><p>&lt;/html&gt;</p>",
+			"name": "Build & deploy - Pull batch class from SM",
+			"kind": "Task"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test",
+			"isDisabled": true,
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"previousTasks": [
+				"SonaQube"
+			],
+			"name": "Builf & Deploy - Create a package",
+			"kind": "Task"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test",
+			"isDisabled": false,
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"previousTasks": [
+				"Build & deploy - Pull batch class from SM",
+				"Builf & Deploy - Create a package"
+			],
+			"name": "Run Cab - Log Onto Central Site",
+			"kind": "Task"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test",
+			"isDisabled": false,
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"previousTasks": [
+				"Build & deploy - Pull batch class from SM",
+				"Builf & Deploy - Create a package"
+			],
+			"name": "Run CAB - Pull out CABS for all batch classes",
+			"kind": "Task"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test",
+			"isDisabled": false,
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"previousTasks": [
+				"Run Cab - Log Onto Central Site",
+				"Run CAB - Pull out CABS for all batch classes"
+			],
+			"name": "Test REST",
+			"kind": "Task",
+			"endpoint": "CDD REST",
+			"plugin": "REST/2.6",
+			"parameters": {
+				"headers": "Content-Type: application/json\nAccept: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6ImcwMzhAc3VubGlmZS5jb20iLCJ0ZW5hbnRJZCI6IjU5NTkzNzMyLWMxYTEtNDZlMC05OGE3LWQ5OWNjMmVhNmYyMSIsInVzZXJJZCI6MiwianRpIjoiYTdhMWQ0OWMtYWQ0OS00Mjc1LWJiOTEtNjkyNTMwMmMzZmUzIiwiZXhwIjoxNTg0NDY0MDU5fQ.Y9kyFNUd2LBHiZjDIx2bOFkX2RCRE0ATaO9cMmY0A5x4PijcW2CXevacmveRWbX0ir-xH0A76bUQRKWqJj3Ayw",
+				"method": "GET",
+				"statusCheck": "false",
+				"body": "{ \n \"name\": \"email_body\", \n \"value\": \"The CDD Self Diagnostics release has been run and the email test was successful. \"\n \"Ansible Tower Job ID\": \"%GenericToken%\"\n \"Jenkins Build Number\": \"%GenericToken%\" \"Jira Ticket Updated\": \"%GenericToken%\" \n \"SonarQube Quality Gate\": \"%GenericToken%\"\n \"TFS Build Number\": \"%GenericToken%\"\n \"TFS Build Result\": \"%GenericToken%\" \n \"TFS Source Control Revision ID\":\"%GenericToken%\", \n \"Docker Container List\" : \"%GenericToken%\" \n}"
+			},
+			"type": "REST"
+		},
+		{
+			"phase": "Clean-Rel-11-10/master1/Test 3",
+			"isDisabled": false,
+			"isOnFailurePhaseEnabled": true,
+			"isSkipTaskOnFailure": false,
+			"name": "JirA",
+			"kind": "Task",
+			"endpoint": "Jira assafshlomi",
+			"plugin": "Jira/2.4",
+			"parameters": {
+				"issueId": "%LargeTokenContent%",
+				"comment": "%EnvironmentToken/AppName%"
+			},
+			"type": "Add Jira Issue Comment"
+		}
+	]
+}
